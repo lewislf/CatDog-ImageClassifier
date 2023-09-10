@@ -26,7 +26,8 @@ In this repository, you will find demo files that illustrate the functionality o
 
 - ![Demo File Menu](files/Cat&Dogs-01.png)
 - ![Demo File Accuracy](files/accuracy.png)
-- ![Demo File Loss](files/loss.png)
+- ![Demo File Loss](https://github.com/lewislf/CatDog-ImageClassifier/raw/main/files/loss.png)
+
 
 Feel free to explore and experiment with these files to get an idea of what our project can do.
 
