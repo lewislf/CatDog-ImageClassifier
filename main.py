@@ -10,7 +10,6 @@ from tflearn.layers.conv import conv_2d, max_pool_2d
 from tflearn.layers.core import input_data, dropout, fully_connected
 from tflearn.layers.estimator import regression
 
-
 TRAIN_DIR = '/path/to/your/train/train/directory'
 TEST_DIR = '/path/to/your/test/test/directory'
 IMG_SIZE = 50
@@ -86,7 +85,7 @@ convnet = max_pool_2d(convnet, 2)
 convnet = fully_connected(convnet, 1024, activation='relu')
 convnet = dropout(convnet, 0.8)
 
-# 2 = numero de classes (cat & dog)
+# 2 = classes (cat & dog)
 convnet = fully_connected(convnet, 2, activation='softmax')
 convnet = regression(convnet, optimizer='adam', learning_rate=LR, loss='categorical_crossentropy', name='targets')
 
@@ -96,7 +95,6 @@ if os.path.exists('{}.meta'.format(MODEL_NAME)):
     model.load(MODEL_NAME)
     print('Model loaded!')
 
-# Para aprimorar a precisao do modelo com base no número de imagens (500)
 train = train_data[:-500]
 test = train_data[-500:]
 
