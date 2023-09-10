@@ -22,7 +22,8 @@ And install the file with the Test and Train datasets.
 ## Data
 
 Ensure your training and test datasets contain cat and dog images in the appropriate directories.
-After training, you can use the trained model to make predictions on test images. Run the `predict_images.py`.
+
+After training and creating the 'test' and 'train' datasets using the `main.py`, you can utilize the trained model to make predictions on test images by running the `predict_images.py`.
 
 To initialize TensorBoard and visualize the results, use the following command:
 
