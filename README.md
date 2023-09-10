@@ -16,6 +16,7 @@ Make sure you have the following Python libraries installed:
 - tqdm
 
 And install the file with the Test and Train datasets.
+
  -`https://www.kaggle.com/competitions/dogs-vs-cats-redux-kernels-edition/data`
 
 ## Data
