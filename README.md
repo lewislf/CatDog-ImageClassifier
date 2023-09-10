@@ -15,6 +15,9 @@ Make sure you have the following Python libraries installed:
 - Matplotlib
 - tqdm
 
+And install the file with the Test and Train datasets.
+ -`https://www.kaggle.com/competitions/dogs-vs-cats-redux-kernels-edition/data`
+
 ## Data
 
 Ensure your training and test datasets contain cat and dog images in the appropriate directories.
