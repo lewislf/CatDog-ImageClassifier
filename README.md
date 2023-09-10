@@ -34,7 +34,7 @@ This command will start TensorBoard and point it to the specified log directory,
 
 ## Demo Files
 
-In this repository, you will find demo files that illustrate the functionality of our project. These files are provided to help you better understand how to use our solution.
+These files are provided to help you better understand the project's functionality.
 
 <div align="center">
   <img src="files/Cat&Dogs-01.png" alt="Demo File Menu">
