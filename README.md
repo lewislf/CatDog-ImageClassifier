@@ -20,7 +20,7 @@ Make sure you have the following Python libraries installed:
 Ensure your training and test datasets contain cat and dog images in the appropriate directories.
 After training, you can use the trained model to make predictions on test images. Run the `predict_images.py`.
 To initialize TensorBoard and visualize the results, use the following command:
-  'tensorboard --logdir=/path/to/your/log/directory'
+  `tensorboard --logdir=/path/to/your/log/directory`
 This command will start TensorBoard and point it to the specified log directory, allowing you to view the training and evaluation results of your neural network model.
 
 
