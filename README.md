@@ -24,9 +24,9 @@ After training, you can use the trained model to make predictions on test images
 
 In this repository, you will find demo files that illustrate the functionality of our project. These files are provided to help you better understand how to use our solution.
 
-- [Demo File Menu](files/Cat&Dogs-01.png)
-- [Demo File Accuracy](files/accuracy.png)
-- [Demo File Loss](files/loss.png)
+- ![Demo File Menu](files/Cat&Dogs-01.png)
+- ![Demo File Accuracy](files/accuracy.png)
+- ![Demo File Loss](files/loss.png)
 
 Feel free to explore and experiment with these files to get an idea of what our project can do.
 
